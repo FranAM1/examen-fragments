@@ -2,4 +2,6 @@
     <string name="app_name">Entrenamientos</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="titulo">Entrenamientos</string>
+    <string name="test">test</string>
 </resources>

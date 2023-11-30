@@ -5,10 +5,31 @@
     android:layout_height="match_parent"
     tools:context=".InfoEntrenamiento">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tituloEntrenamiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/test"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/descripcionEntrenamiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/test" />
+
+        <ImageView
+            android:id="@+id/imagenEntrenamiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher_foreground"
+            />
+    </LinearLayout>
 
 </FrameLayout>
